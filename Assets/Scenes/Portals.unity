@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.1340395, g: 0.14510128, b: 0.11631924, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000002, guid: aaf682393b5a34c48a98a555db4ce034, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -132,19 +132,55 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1534943128579649898, guid: 59e2def31e052604b90cd367a2a773f7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1534943128579649898, guid: 59e2def31e052604b90cd367a2a773f7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 2022969928664198323, guid: 59e2def31e052604b90cd367a2a773f7, type: 3}
       propertyPath: m_Name
       value: Portal1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4757312776734744208, guid: 59e2def31e052604b90cd367a2a773f7, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 5026807338842304970, guid: 59e2def31e052604b90cd367a2a773f7, type: 3}
       propertyPath: m_Name
       value: ExamplePortal(ReplaceWithYourPortalObject)
       objectReference: {fileID: 0}
     - target: {fileID: 5071991944104819622, guid: 59e2def31e052604b90cd367a2a773f7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071991944104819622, guid: 59e2def31e052604b90cd367a2a773f7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071991944104819622, guid: 59e2def31e052604b90cd367a2a773f7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -24
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071991944104819622, guid: 59e2def31e052604b90cd367a2a773f7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071991944104819622, guid: 59e2def31e052604b90cd367a2a773f7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071991944104819622, guid: 59e2def31e052604b90cd367a2a773f7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071991944104819622, guid: 59e2def31e052604b90cd367a2a773f7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071991944104819622, guid: 59e2def31e052604b90cd367a2a773f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 6509874187666525721, guid: 59e2def31e052604b90cd367a2a773f7, type: 3}
       propertyPath: m_Name
