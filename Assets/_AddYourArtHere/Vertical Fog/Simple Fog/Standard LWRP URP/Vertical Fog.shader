@@ -1,4 +1,4 @@
-﻿Shader "Tzar/VerticalFog"
+﻿Shader "Custom/VerticalFog"
 {
     Properties
     {
@@ -10,7 +10,8 @@
         Tags { "Queue" = "Transparent" "RenderType"="Transparent"  }
   
         Pass
-        {
+        { 
+           Fog {Mode Off}
            Blend SrcAlpha OneMinusSrcAlpha
            ZWrite Off
            CGPROGRAM
